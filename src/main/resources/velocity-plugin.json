@@ -1,0 +1,10 @@
+{
+  "id": "velocityblacklist",
+  "name": "Velocity Blacklist",
+  "version": "1.0",
+  "main": "dk.BananaDev.blacklist.VelocityBlacklist",
+  "authors": [
+    "BananaDev"
+  ],
+  "dependencies": []
+}

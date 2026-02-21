@@ -25,3 +25,11 @@ java {
     targetCompatibility = javaVersion
 }
 
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("velocity-plugin.json") {
+        expand "version": project.version
+    }
+}
+
